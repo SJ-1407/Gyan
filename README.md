@@ -17,20 +17,24 @@ This project performs the CRUD operatioons using FastAPI
 
 ## Setup
 
-1. Clone the repository:
+1.Clone the repository:
+
+    git clone https://github.com/SJ-1407/GyanBee-Task.git  
+    cd GyanBee-Task  
    
-   git clone https://github.com/SJ-1407/GyanBee-Task.git
-   cd GyanBee-Task
+2.Create and activate a virtual environment:  
 
-2.Create and activate a virtual environment:
-  python -m venv any_name
-  .\any_name\Scripts\activate 
+     python -m venv any_name     
+     .\any_name\Scripts\activate   
   
-3. Install dependencies:
-   pip install -r requirements.txt
+3. Install dependencies:   
 
-4.  Run the app:
-    uvicorn main:app --reload
-5. Make sure to change the database url present in database.py, if required.
+       pip install -r requirements.txt
+
+5.  Run the app:    
+
+        uvicorn main:app --reload
+
+7. Make sure to change the database url present in database.py, if required.
 
 #The API will be available at http://127.0.0.1:8000.
