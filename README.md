@@ -37,4 +37,5 @@ This project performs the CRUD operatioons using FastAPI
 
 7. Make sure to change the database url present in database.py, if required.
 
-#The API will be available at http://127.0.0.1:8000.
+#The API will be available at http://127.0.0.1:8000.   
+#You can test the endpoints at http://127.0.0.1:8000/docs.
