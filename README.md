@@ -19,7 +19,7 @@ This project performs the CRUD operatioons using FastAPI
 
 1.Clone the repository:
 
-    git clone https://github.com/SJ-1407/GyanBee-Task.git  
+    git clone -b master https://github.com/SJ-1407/GyanBee-Task.git  
     cd GyanBee-Task  
    
 2.Create and activate a virtual environment:  
@@ -30,6 +30,10 @@ This project performs the CRUD operatioons using FastAPI
 3. Install dependencies:   
 
        pip install -r requirements.txt
+   if the above command does not work , try:
+
+       python -m uvicorn main:app --reload
+
 
 5.  Run the app:    
 
