@@ -119,7 +119,7 @@ def read_all_tasks(completed: Optional[bool] = Query(None, description="Filter t
         To get all tasks: `/tasks/`
         To filter tasks by completion status: `/tasks/?completed=true` or `/tasks/?completed=false`
     """
-    tasks = crud.read_all_tasks(db, completed=completed)
+    tasks = crud.read_all_tasks(db, completed= completed)
     return {"tasks": tasks}
 
 
